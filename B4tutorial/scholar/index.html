@@ -665,8 +665,8 @@ https://templatemo.com/tm-586-scholar
             </div>
             <div class="col-lg-6">
                 <div class="contact-us-content">
-                    <form id="contact-form" action="#" method="post" onsubmit="sendToWhatsapp()">
-                      <!-- <input type="hidden" name="access_key" value="f9ce02a8-5864-4ff0-a5e6-4b09b04f9b45"> -->
+                    <form id="contact-form" action="https://api.web3forms.com/submit" method="post" onsubmit="sendToWhatsapp()">
+                      <input type="hidden" name="access_key" value="8ae43777-3e53-4bc4-8d9e-ba25f5c24d17">
                         <div class="col-lg-12">
                             <fieldset>
                                 <input type="text" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
@@ -712,7 +712,7 @@ https://templatemo.com/tm-586-scholar
 <script src="assets/js/custom.js"></script>
 <script>
     function sendToWhatsapp() {
-        let number = "+918972947446";
+        let number = "+917019004803";
         let name = document.getElementById('name').value;
         let email = document.getElementById('email').value;
         let body = document.getElementById('message').value;
