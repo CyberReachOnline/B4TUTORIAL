@@ -41,6 +41,14 @@ body {
     .line p{
         font-size: 14px;
     }
+    .nav{
+        margin-top: 330px !important;
+    }
+}
+@media (max-width: 767px) {
+    .header-area.header-sticky .nav {
+        margin-top: 330px !important;
+    }
 }
 .background-white {
     background-color: #ffffff;
